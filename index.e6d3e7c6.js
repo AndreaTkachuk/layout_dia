@@ -1,0 +1,2 @@
+const e=document.querySelector(".arrow--right"),t=document.querySelector(".arrow--left"),l=document.querySelectorAll(".slider__img");let r=0;const c=e=>{l.forEach((t,l)=>{t.classList.toggle("active",l===e)})};c(0),e.addEventListener("click",e=>{e.preventDefault(),c(r=(r+1)%l.length)}),t.addEventListener("click",e=>{e.preventDefault(),c(r=(r-1+l.length)%l.length)});
+//# sourceMappingURL=index.e6d3e7c6.js.map
